@@ -1,0 +1,67 @@
+.signup-section {
+    /* background-image: url("backimg.jpg"); */
+    background: #f0f2f5;
+    padding: 110px 0;
+}
+.signup-section .left-side{
+   /* background-color: #fff;
+   border-radius: 100%; */
+   /* padding: 10px; */
+  
+   display: flex; 
+   padding-top: 10%;
+   /* align-items: center; */
+}
+.signup-section .left-content .description {
+
+    width: 80%;
+    padding-left: 20px;
+}
+
+.signup-section .right-content {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.signup-section .row-box{
+  
+    width: 80%;
+    margin: auto;
+}
+
+.signup-section .login{
+    width: 100%;
+}
+.signup-section .right-description{
+    text-align: center;
+    padding: 20px ;
+    
+}
+.signup-section .right-description span{
+    font-weight: 600;
+
+}
+
+/* sign up page css start */
+
+.signup-section .rodiotype{
+    border: 2px solid rgb(238, 231, 231);
+    padding: 8px;
+    background-color: #fff;
+}
+
+.signup-section .checkbox-type{
+    border: 2px solid rgb(238, 231, 231);
+    padding: 8px;
+    background-color: #fff;
+}
+
+/* JAVASCRIPT VALIDATION START */
+
+
+.firstname-error, .Secondname-error, .mobileno-error, .mobilemismatch-error, .email-error,
+.password-error, .repassword-error, .dob-error, .radio-error, .checkbox-error  {
+    color: red;
+    display: none;
+}
